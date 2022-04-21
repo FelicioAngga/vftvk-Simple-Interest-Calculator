@@ -1,4 +1,42 @@
-body {background-color:tan;}
-h1{color:green;}
+body{
+    background-color: black;
+}
 
+td{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+h1{
+    color: gray;
+    margin-left: 20px;
+}
+.container{
+    margin: auto;
+    padding: 20px;
+    width: 400px;
+    height: fit-content;
+    background-color: white;
+    border-radius: 40px;
+}
+
+table{
+    margin-left: 50px;
+}
+
+.select{
+    padding-right: 5px;
+}
+
+#result{
+    margin-left: 50px;
+}
+
+.copyright{
+    margin-left: 20px;
+}
+
+#result{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
 
