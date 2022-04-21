@@ -3,6 +3,10 @@ function compute()
     p = document.getElementById("percentage").innerHTML;
     rate = document.getElementById("rate").value;
     amount = document.getElementById("amount").value;
+    if(amount == ""){
+        alert("Please fill the amount");
+        return;
+    }
     year = document.getElementById("year").value
     result = amount * rate / 100 * year;
 
